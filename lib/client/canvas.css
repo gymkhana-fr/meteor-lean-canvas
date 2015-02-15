@@ -1,0 +1,19 @@
+table.canvas {
+  width: 100%;
+  height: 600px;
+}
+
+table.canvas td {
+  width: 20%;
+  height: 33%;
+  border: 1px solid #333;
+}
+
+table.canvas td.full {
+  border: 1px solid #333;
+}
+
+table.canvas td.top {
+  border: 1px solid #333;
+  border-bottom: 2px dotted #ccc;
+}

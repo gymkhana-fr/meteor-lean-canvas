@@ -16,6 +16,7 @@ Package.onUse(function(api) {
     'lib/client/content.html',
     'lib/client/content.js',
   ], 'client');
+  api.export(['canvas']);
 });
 
 Package.onTest(function(api) {

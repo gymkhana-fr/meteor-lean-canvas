@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
-  api.use(['templating', 'handlebars', 'bootstrap'], 'client');
+  api.use(['templating', 'handlebars', 'ian:bootstrap-3@3.3.1'], 'client');
   api.addFiles([
     'lib/client/canvas.css',
     'lib/client/canvas.html',

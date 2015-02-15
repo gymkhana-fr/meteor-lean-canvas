@@ -3,3 +3,11 @@ table.canvas h2 {
   text-align: center;
   margin: 0;
 }
+
+table.canvas ul {
+  margin: 0 0;
+}
+
+table.canvas li.list-group-item {
+  padding: 5px 5px;
+}

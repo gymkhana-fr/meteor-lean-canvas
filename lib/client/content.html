@@ -1,8 +1,12 @@
 <template name="content">
  <td class="{{datas.class}}" colspan="{{datas.colspan}}">
-   <h2>{{datas.title}}</h2>
+   <h2>{{datas.title}} <span class="badge">{{zone}}</span></h2>
    <ul class="list-group">
-     <li class="list-group-item small"><a href="/contributions/gymkhana-fr/gymkhana-contenu/bizness">bizness</a></li>
+     {{#each datas.list}}
+       <li class="list-group-item small">
+         <a href="{{slug}}">{{title}}</a>
+       </li>
+     {{/each}}
    </ul>
  </td>
 </template>
